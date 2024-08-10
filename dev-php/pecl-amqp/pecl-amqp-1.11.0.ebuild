@@ -3,7 +3,7 @@
 
 EAPI="8"
 
-USE_PHP="php8-1 php8-2"
+USE_PHP="php8-1 php8-2 php8-3"
 MY_P="${PN/pecl-/}-${PV/_rc/RC}"
 
 inherit php-ext-pecl-r3
